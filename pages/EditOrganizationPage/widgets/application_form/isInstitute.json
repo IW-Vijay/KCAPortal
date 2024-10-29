@@ -1,0 +1,49 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 29,
+  "boxShadow": "none",
+  "defaultSwitchState": "{{appsmith.URL.queryParams.institution || organizationJSObject.organizationData.data.organization.institution_id ? true : false}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultSwitchState"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultSwitchState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "4g7wr6nned",
+  "label": "Is a Institute?",
+  "labelPosition": "Left",
+  "leftColumn": 56,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 83,
+  "mobileLeftColumn": 14,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 79,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 18.880859375,
+  "parentId": "x49b04gzbp",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "shouldScrollContents": true,
+  "topRow": 25,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "pi6jkrycxb",
+  "widgetName": "isInstitute"
+}

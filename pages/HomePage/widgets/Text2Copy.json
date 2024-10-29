@@ -1,0 +1,59 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "",
+  "bottomRow": 61,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    },
+    {
+      "key": "textAlign"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Inter",
+  "fontSize": "20px",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "klnpt6ed37",
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 43,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 39,
+  "needsErrorInfo": false,
+  "originalBottomRow": 61,
+  "originalTopRow": 33,
+  "overflow": "NONE",
+  "parentColumnSpace": 19.8125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "shouldTruncate": false,
+  "text": "We are excited to bring together our vibrant community of families, high schoolers, and working professionals through KCA Connect. This platform is designed to help you build meaningful connections, share career insights, and collaborate for success. Whether you're a student exploring career paths or a professional eager to mentor, KCA Connect is the place to engage, learn, and grow together.\nBy creating your profile and exploring the network, you'll discover opportunities to connect with others who share your passions and goals. Together, we can strengthen our community through collaboration and mutual support, building lifelong relationships that inspire growth and success.\n",
+  "textAlign": "JUSTIFY",
+  "textColor": "#231F20",
+  "topRow": 33,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "d3n1xm65vi",
+  "widgetName": "Text2Copy"
+}

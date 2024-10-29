@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67036dee73f83b5809d9e299_ab2fe811-7f3d-4bb5-a186-3e8d0baab1ee",
+  "id": "EditOrganizationPage_organizationJSObject",
+  "unpublishedCollection": {
+    "name": "organizationJSObject",
+    "pageId": "EditOrganizationPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

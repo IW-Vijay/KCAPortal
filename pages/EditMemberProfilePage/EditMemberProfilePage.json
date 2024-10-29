@@ -1,0 +1,33 @@
+{
+  "gitSyncId": "66ebb00d73f83b5809d9d9a4_8ce3928f-1229-4ea5-b629-e6448ceb4117",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 1420,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "minHeight": 850,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "rightColumn": 1160,
+          "snapColumns": 64,
+          "snapRows": 104,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "EditMemberProfilePage",
+    "slug": "editmemberprofilepage"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0.375rem",
+  "bottomRow": 27,
+  "boxShadow": "none",
+  "defaultText": "{{institutionJSObject.institutionData.data.institution.name}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "validation"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "j65kqedbz9",
+  "label": "Name*",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelTextSize": "1rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onTextChanged": "{{updateInstitutionJSObject.removeAlerts()}}",
+  "originalBottomRow": 35,
+  "originalTopRow": 27,
+  "parentColumnSpace": 12.0732421875,
+  "parentId": "xeegsdl40z",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 56,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "showStepArrows": false,
+  "topRow": 19,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "{{updateInstitutionJSObject.alert_name? false : true}}",
+  "version": 2,
+  "widgetId": "b4s4adjmlp",
+  "widgetName": "inp_name"
+}

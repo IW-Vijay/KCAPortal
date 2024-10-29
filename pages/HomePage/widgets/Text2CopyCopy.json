@@ -1,0 +1,56 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "",
+  "bottomRow": 69,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Inter",
+  "fontSize": "20px",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "klnpt6ed37",
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 43,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 39,
+  "needsErrorInfo": false,
+  "originalBottomRow": 69,
+  "originalTopRow": 61,
+  "overflow": "NONE",
+  "parentColumnSpace": 19.8125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "shouldTruncate": false,
+  "text": "Let's get to know each other and shape the future of our community, one connection at a time!\nಒಟ್ಟಾಗಿ ಬೆಳೆದು, ಒಟ್ಟಾಗಿ ಯಶಸ್ಸು ಸಾಧಿಸೋಣ!",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "topRow": 61,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "tinntn4n1a",
+  "widgetName": "Text2CopyCopy"
+}

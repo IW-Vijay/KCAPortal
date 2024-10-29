@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "66ebb00d73f83b5809d9d9a4_301765cc-92f3-49e1-af4a-3d190f41049c",
+  "id": "EditMemberProfilePage_addEducationAndExperience",
+  "unpublishedCollection": {
+    "name": "addEducationAndExperience",
+    "pageId": "EditMemberProfilePage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "alert",
+        "value": "null"
+      },
+      {
+        "name": "alert_education",
+        "value": "null"
+      },
+      {
+        "name": "alert_workex",
+        "value": "null"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+UPDATE memberships
+SET  
+		premium_type_id = {{inp_premiumtype.selectedOptionValue}},
+		status_id = 2,
+		owner_id = {{JSON.parse(appsmith.URL.queryParams.requester).profile_id}}
+WHERE 
+    membership_id = {{ JSON.parse(appsmith.URL.queryParams.requester).membership_id }};

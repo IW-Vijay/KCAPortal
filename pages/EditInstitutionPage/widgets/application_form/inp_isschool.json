@@ -1,0 +1,50 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 26,
+  "boxShadow": "none",
+  "defaultSwitchState": "{{institutionJSObject.institutionData.data.institution.isschool}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultSwitchState"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultSwitchState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "4g7wr6nned",
+  "label": "Is a School?",
+  "labelPosition": "Left",
+  "leftColumn": 57,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 83,
+  "mobileLeftColumn": 14,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 79,
+  "needsErrorInfo": false,
+  "originalBottomRow": 35,
+  "originalTopRow": 30,
+  "parentColumnSpace": 18.880859375,
+  "parentId": "xeegsdl40z",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 22,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "g73tc1vg2d",
+  "widgetName": "inp_isschool"
+}

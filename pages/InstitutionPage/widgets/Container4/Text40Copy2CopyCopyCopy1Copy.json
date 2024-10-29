@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "textAlign"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Inter",
+  "fontSize": "1rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lpp3worjsh",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 11,
+  "originalTopRow": 0,
+  "overflow": "NONE",
+  "parentColumnSpace": 19.8125,
+  "parentId": "vn5qxsja4o",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldScrollContents": true,
+  "shouldTruncate": false,
+  "text": "{{institutionJSObject.institutionData.data.institution.description ? institutionJSObject.institutionData.data.institution.description  : 'No description'}}",
+  "textAlign": "JUSTIFY",
+  "textColor": "#231F20",
+  "topRow": 0,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "6769fjm25c",
+  "widgetName": "Text40Copy2CopyCopyCopy1Copy"
+}

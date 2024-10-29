@@ -1,0 +1,2 @@
+DELETE FROM work_experience
+WHERE profile_id = {{appsmith.store.user.profile_id}};

@@ -1,0 +1,68 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0.375rem",
+  "bottomRow": 38,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "validation"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "errorMessage": "",
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "EMAIL",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "j65kqedbz9",
+  "label": "Email Address*",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelTextSize": "1rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onTextChanged": "{{submitRequest.removeAlerts('alert_mail');}}",
+  "originalBottomRow": 62,
+  "originalTopRow": 54,
+  "parentColumnSpace": 12.0732421875,
+  "parentId": "cfmjtqv3rn",
+  "parentRowSpace": 10,
+  "placeholderText": "Enter email address",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 63,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "shouldAllowAutofill": true,
+  "showStepArrows": false,
+  "topRow": 30,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "{{submitRequest.alert_mail ? false : true}}",
+  "version": 2,
+  "widgetId": "9dc14thcpy",
+  "widgetName": "inp_email"
+}
