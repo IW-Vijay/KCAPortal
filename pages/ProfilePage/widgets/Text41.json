@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 180,
+  "bottomRow": 114,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 40,
   "shouldTruncate": false,
-  "text": "{{educationAndWorkexJsObject.educations.data}}",
+  "text": "{{educationAndWorkexJsObject.educations.data.education[0].institution_name}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 110,
