@@ -43,7 +43,7 @@
   "parentColumnSpace": 19.8125,
   "parentId": "yycrsjcari",
   "parentRowSpace": 10,
-  "placeholderText": "Search",
+  "placeholderText": "Search members by name",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
