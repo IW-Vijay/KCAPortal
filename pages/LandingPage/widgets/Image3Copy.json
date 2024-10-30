@@ -14,7 +14,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "3y2253zxrq",
-  "leftColumn": 0,
+  "leftColumn": 43,
   "maxZoomLevel": 1,
   "mobileBottomRow": 21,
   "mobileLeftColumn": 0,
@@ -26,10 +26,10 @@
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 21,
+  "rightColumn": 64,
   "topRow": 10,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "kydzl7lkja",
-  "widgetName": "Image3"
+  "widgetId": "8oxf35nvdh",
+  "widgetName": "Image3Copy"
 }
