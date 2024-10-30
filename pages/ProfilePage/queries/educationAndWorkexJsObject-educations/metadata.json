@@ -26,6 +26,6 @@
     "fullyQualifiedName": "educationAndWorkexJsObject.educations",
     "name": "educations",
     "pageId": "ProfilePage",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
