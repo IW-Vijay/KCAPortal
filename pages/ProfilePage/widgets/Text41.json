@@ -1,8 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 85,
-  "displayName": "Text",
+  "bottomRow": 180,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -12,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -19,37 +21,35 @@
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
   "fontStyle": "BOLD",
-  "hideCard": false,
-  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-  "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "lpp3worjsh",
-  "leftColumn": 1,
+  "key": "vvkhlho0eq",
+  "leftColumn": 24,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "originalBottomRow": 86,
-  "originalTopRow": 82,
+  "minWidth": 450,
+  "mobileBottomRow": 114,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 110,
+  "needsErrorInfo": false,
+  "originalBottomRow": 114,
+  "originalTopRow": 110,
   "overflow": "NONE",
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 8,
-  "searchTags": [
-    "typography",
-    "paragraph",
-    "label"
-  ],
-  "shouldScrollContents": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
   "shouldTruncate": false,
-  "text": "Work Experience",
+  "text": "{{educationAndWorkexJsObject.educations.data}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 81,
+  "topRow": 110,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ktk9g2go7s",
-  "widgetName": "Text40Copy2CopyCopyCopyCopy2Copy1Copy"
+  "widgetId": "gx14riq1og",
+  "widgetName": "Text41"
 }
