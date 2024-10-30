@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "Hi, \n\nPlease click the below link to reset your KCA portal password.\n\nhttp://44.223.73.194/app/kcaportal/resetpasswordpage-6720a67fa54dd05886d65a2f?branch=MVP-103&email={{LoginJSObject.htmlencoding(inp_email_fp.text)}}\n\n\nbest regards,\nKCA Board members\ncontact_info\n",
+      "body": "Hi, \n\nPlease click the below link to reset your KCA portal password.\n\nhttp://44.223.73.194/app/kcaportal/resetpasswordpage-6720a67fa54dd05886d65a2f?branch=main&email={{LoginJSObject.htmlencoding(inp_email_fp.text)}}\n\n\nbest regards,\nKCA Board members\ncontact_info\n",
       "encodeParamsToggle": true,
       "formData": {
         "command": "SEND",
