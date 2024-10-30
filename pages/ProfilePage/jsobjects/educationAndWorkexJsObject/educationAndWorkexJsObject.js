@@ -1,7 +1,8 @@
 export default {
 	async educations() {
+		let educationList = [];
 		await fetchEducation.run();
-		let educationList = fetchEducation.data;
+		educationList = fetchEducation.data;
 
 		// Loop through the workex list and replace organization_id with the fetched name
 		let educationWithNames = await Promise.all(educationList.map(async (education) => {
