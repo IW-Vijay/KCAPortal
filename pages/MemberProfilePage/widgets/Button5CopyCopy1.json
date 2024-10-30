@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 89,
+  "bottomRow": 121,
   "boxShadow": "none",
   "buttonColor": "#b91c1c",
   "buttonVariant": "PRIMARY",
@@ -48,7 +48,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 14,
   "text": "Delete Account",
-  "topRow": 85,
+  "topRow": 117,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "h54r0ht5ap",

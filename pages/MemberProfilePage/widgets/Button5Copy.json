@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 89,
+  "bottomRow": 121,
   "boxShadow": "none",
   "buttonColor": "{{userDataJSObject.user.data.user.isdisabled !== 1 ? '#ef4444' :'#22c55e'}}",
   "buttonVariant": "PRIMARY",
@@ -55,7 +55,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 63,
   "text": "{{userDataJSObject.user.data.user.isdisabled !== 1 ? 'Deactivate Account' : 'Activate Account'}}",
-  "topRow": 85,
+  "topRow": 117,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "n69r85p4gv",
