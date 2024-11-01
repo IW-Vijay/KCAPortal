@@ -1,11 +1,11 @@
 export default {
 	async educations() {
-		let educationWithNames = null;
+		resetWidget(Educations);
 		await fetchEducation.run();
 		let educationList = fetchEducation.data;
 
 		// Loop through the workex list and replace organization_id with the fetched name
-		educationWithNames = await Promise.all(educationList.map(async (education) => {
+		let educationWithNames = await Promise.all(educationList.map(async (education) => {
 			await fetchInstitutionName.run({ "institution_id": education.institution_id });
 			showAlert(education.organization_id);
 
@@ -21,12 +21,12 @@ export default {
 		return { "education": educationWithNames };
 	},
 	async workexs() {
-		let workexWithNames = null;
+		resetWidget(Workexs);
 		await fetchWorkex.run();
 		let workexList = fetchWorkex.data;
 
 		// Loop through the workex list and replace organization_id with the fetched name
-		workexWithNames = await Promise.all(workexList.map(async (workex) => {
+		let workexWithNames = await Promise.all(workexList.map(async (workex) => {
 			await fetchOrganizationName.run({ "organization_id": workex.organization_id });
 			showAlert(workex.organization_id);
 

@@ -21,7 +21,7 @@
       "key": "educationClicked"
     }
   ],
-  "educationClicked": "{{navigateTo('InstitutionPage', {\n \"institution\" : Custom1.model.clickedEducation\n}, 'SAME_WINDOW');}}",
+  "educationClicked": "{{navigateTo('InstitutionPage', {\n \"institution\" : Educations.model.clickedEducation\n}, 'SAME_WINDOW');}}",
   "events": [
     "educationClicked"
   ],
@@ -61,5 +61,5 @@
   },
   "version": 1,
   "widgetId": "j9vaad9bxl",
-  "widgetName": "Custom1"
+  "widgetName": "Educations"
 }
