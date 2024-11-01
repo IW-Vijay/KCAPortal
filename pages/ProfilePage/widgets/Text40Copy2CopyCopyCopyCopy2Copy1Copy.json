@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 86,
+  "bottomRow": 96,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -28,7 +28,7 @@
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "originalBottomRow": 85,
+  "originalBottomRow": 86,
   "originalTopRow": 81,
   "overflow": "NONE",
   "parentColumnSpace": 19.8125,
@@ -46,7 +46,7 @@
   "text": "Work Experience",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 81,
+  "topRow": 92,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
