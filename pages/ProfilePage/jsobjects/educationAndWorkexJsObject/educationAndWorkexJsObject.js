@@ -1,6 +1,10 @@
 export default {
-	async educations() {
+	async resetwidget() {
 		resetWidget(Educations);
+		resetWidget(Workexs);
+	},
+	async educations() {
+		//resetWidget(Educations);
 		await fetchEducation.run();
 		let educationList = fetchEducation.data;
 
@@ -21,7 +25,7 @@ export default {
 		return { "education": educationWithNames };
 	},
 	async workexs() {
-		resetWidget(Workexs);
+		//resetWidget(Workexs);
 		await fetchWorkex.run();
 		let workexList = fetchWorkex.data;
 
