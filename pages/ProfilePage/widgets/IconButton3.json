@@ -24,7 +24,7 @@
     }
   ],
   "iconName": "edit",
-  "isDisabled": "{{educationAndWorkexJsObject.workexs.data.workex && educationAndWorkexJsObject.educations.data.education ? 'false' : 'true'}}",
+  "isDisabled": "{{ppeducationAndWorkexJsObject.workexs.data.workex && ppeducationAndWorkexJsObject.educations.data.education ? 'false' : 'true'}}",
   "isLoading": false,
   "isVisible": true,
   "key": "z4xkj14pwk",
@@ -35,7 +35,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('EditProfilePage', {\n  \"educations\": JSON.stringify(educationAndWorkexJsObject.educations.data.education),\n  \"workexs\": JSON.stringify(educationAndWorkexJsObject.workexs.data.workex)\n}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('EditProfilePage', {\n  \"educations\": JSON.stringify(ppeducationAndWorkexJsObject.educations.data.education),\n  \"workexs\": JSON.stringify(ppeducationAndWorkexJsObject.workexs.data.workex)\n}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,

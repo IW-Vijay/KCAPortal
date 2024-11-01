@@ -5,7 +5,7 @@
   "borderWidth": "0",
   "bottomRow": 92,
   "boxShadow": "none",
-  "defaultModel": "{{educationAndWorkexJsObject.educations.data}}",
+  "defaultModel": "{{ppeducationAndWorkexJsObject.educations.data}}",
   "dynamicBindingPathList": [
     {
       "key": "theme"
