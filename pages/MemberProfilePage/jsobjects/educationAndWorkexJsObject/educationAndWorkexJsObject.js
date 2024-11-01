@@ -1,7 +1,6 @@
 export default {
 	async educations() {
 		// Ensure that the fetchEducation.run() is awaited
-		educationAndWorkexJsObject.educations.data = [];
 		await fetchEducation.run();
 		let educationList = fetchEducation.data;
 
@@ -29,7 +28,6 @@ export default {
 	},
 
 	async workexs() {
-		educationAndWorkexJsObject.workexs.data = [];
 		await fetchWorkex.run();
 		let workexList = fetchWorkex.data;
 

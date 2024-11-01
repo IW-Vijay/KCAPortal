@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6720a67ba54dd05886d659fc_810769d5-43d2-4dba-8912-72b25f67e18d",
+  "id": "ProfilePage_testJSObject1",
+  "unpublishedCollection": {
+    "name": "testJSObject1",
+    "pageId": "ProfilePage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
